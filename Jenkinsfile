@@ -9,7 +9,7 @@ pipeline {
             
              steps {
         // Compile the app and its dependencies
-        git branch: 'JenkinsTest/TestBranch', credentialsId: 'amir', url: 'https://amirjehangir@bitbucket.org/systems_dev/merchantapp_android.git'
+        git branch: 'JenkinsTest/TestBranch', credentialsId: 'amir', url: 'https://amirjehangir@bitbucket.org/systems_dev/merchant_android.git'
       }
          
         }
